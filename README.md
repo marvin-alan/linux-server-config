@@ -166,3 +166,13 @@ A Linux distribution on a virtual machine and prepare to host a web application,
   
 17. Visit site at [http://34.222.140.232.xip.io](http://34.222.140.232.xip.io)
 
+### Sources
+
+[How To Add and Delete Users on an Ubuntu 14.04 VPS](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps)
+
+[How to deploy a flask application on an ubuntu vps](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
+
+[Setup Virtualenv](http://flask.pocoo.org/docs/0.12/installation/)
+
+[How to Run Django with mod_wsgi and Apache with a virtualenv Python environment on a Debian VPS](https://www.digitalocean.com/community/tutorials/how-to-run-django-with-mod_wsgi-and-apache-with-a-virtualenv-python-environment-on-a-debian-vps)
+
