@@ -36,6 +36,11 @@ A Linux distribution on a virtual machine and prepare to host a web application,
 3. Update all currently installed packages
   - Download package lists with `sudo apt-get update`
   - Fetch new versions of packages with `sudo apt-get upgrade`
+  - Install the unattended-upgrades package `sudo apt-get install unattended-upgrades`
+  - Enable the unattended-upgrades package `sudo dpkg-reconfigure -plow unattended-upgrades`
+  - Note: When some upgrades show packages being kept back `sudo apt-get dist-upgrade`
+
+[Fix upgrades that show packages being kept back](https://debian-administration.org/article/69/Some_upgrades_show_packages_being_kept_back)
 
 4. Change SSH port from 22 to 2200
   - Run `sudo nano /etc/ssh/sshd_config`
@@ -168,6 +173,7 @@ A Linux distribution on a virtual machine and prepare to host a web application,
 
 ### Sources
 
+
 [How To Add and Delete Users on an Ubuntu 14.04 VPS](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps)
 
 [How to deploy a flask application on an ubuntu vps](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
@@ -175,4 +181,7 @@ A Linux distribution on a virtual machine and prepare to host a web application,
 [Setup Virtualenv](http://flask.pocoo.org/docs/0.12/installation/)
 
 [How to Run Django with mod_wsgi and Apache with a virtualenv Python environment on a Debian VPS](https://www.digitalocean.com/community/tutorials/how-to-run-django-with-mod_wsgi-and-apache-with-a-virtualenv-python-environment-on-a-debian-vps)
+
+
+[Automatic Updates](https://help.ubuntu.com/lts/serverguide/automatic-updates.html)
 
